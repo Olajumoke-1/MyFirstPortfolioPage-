@@ -1,4 +1,4 @@
-# Project Title [My Portfolio Single Page App]
+# Project Title [My First Portfolio WebPage ]
 
 Welcome to my portfolio single-page app! This project is my first endeavour as a junior developer,
 and i'm excited to showcase my frontend development skills. As a junior developer i've designed and implemented every aspect of this single page app,
