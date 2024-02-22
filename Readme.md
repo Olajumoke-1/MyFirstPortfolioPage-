@@ -1,17 +1,19 @@
 # Project Title [My Portfolio Single Page App]
 
-Welcome to my portfolio single-page app! This project is my first endeavour as a junior developer,
-and i'm excited to showcase my frontend development skills. As a junior developer i've designed and implemented every aspect of this single page app,
- to reflect my style, technical abilities.
-  
  ## Table of contents 
-
+ - [Project-Description] (#Project-Description)
  - [Project-structure] (#Project-structure)
  - [The-images-on-the-page] (#The-images-on-the-page)
  - [Built-with] (#Built-with)
  - [What-I-Learned] (#What-I-Learned)
  - [Continued-Development] (#Continued-Development)
  - [Author] (#Author)
+
+ ## Project Description
+ Welcome to my portfolio single-page app! This project is my first endeavour as a junior developer,
+ and i'm excited to showcase my frontend development skills. As a junior developer i've designed and implemented every aspect of this single page app,
+ to reflect my style, technical abilities.
+  
 ## Project structure
   Here's a quick overview of the project structure
  - Index.html: The main page
