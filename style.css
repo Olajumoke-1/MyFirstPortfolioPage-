@@ -1,0 +1,253 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.Navbar{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #212529;
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.Text{
+    color: #F8F9FA;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 0px 0px 0px 200px;
+}
+.Navbar ul{
+    display: flex;
+    list-style: none;
+}
+.Navbar li::first-letter{
+    color:red;
+}
+nav a{
+    color: #F8F9FA;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 0px 15px 0px 3px;
+}
+#About{
+    background-color: #DEE2E6;
+    width: auto;
+    height:500px;
+    padding-top: 100px;
+}
+ .center{
+    width: 284px;
+    margin-left: 300px; 
+    margin-right: auto;
+    text-align: center;
+    color: #212529;
+    font-size: 60px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.mine{
+    display: block;
+    margin: 0 auto; 
+    margin-top: -430px; 
+    margin-right: 275px;
+    clip-path: circle();
+}
+.front{
+    color: #6C757D;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+    margin-left: 360px;
+}
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    background: #212529; 
+    border-radius: 10px; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    cursor: pointer;
+    width: 85px;
+    height: 24px;
+    color: #F8F9FA;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-left: 380px;
+    margin-bottom: 30px;
+}
+
+#Skills{
+    background-color: #F8F9FA;
+    width: auto;
+    height: 350px;
+    position: relative;
+}
+.my-skills{
+    width: 878px;
+    height: 164px;
+    color: #212529;
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.the-text{
+    text-align: center;
+    color: #dd1406;
+    font-size: 26px;
+    font-family: Inter;
+    font-style: italic;
+    margin-left: 600px;
+   padding: 10px;
+    display: block;
+    text-shadow: #cfdd06b6;
+    border: 2px  pink outset;
+    height: 200px;
+    width: 600px;
+    margin-top: -60px;
+    overflow: scroll;
+}
+#Projects{
+    background-color: #DEE2E6;
+    width: auto;
+    height: 500px;
+}
+.Quote{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    
+}
+.cont{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    padding-top: 18px;
+    color: burlywood;
+}
+.Ins{
+    place-items: center;
+    margin-left: 120px;
+    padding-top: 70px;
+}
+.Edu{
+    place-items: center;
+    margin-left: 150px;
+    padding-top: 70px;
+}
+#Resume{
+    background-color: #F8F9FA;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+}
+.Here{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px cadetblue dashed;
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    width: 300px;
+    padding: 7px;
+}
+.CV{
+    margin: 7px 0px 0px 0px;
+}
+#Footer{
+    background-color:  #DEE2E6;
+    width: auto;
+    height: 200px;
+    display: inline-block;
+    padding: 0px 80px 0px 80px;
+    margin-left: 430px;
+    margin-top: 15px;
+}
+.foot{
+    text-align: center;
+    margin-top: 30px;
+}
+.reach{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.what{
+    float: left;
+}
+#Footer{
+    text-align: center;
+    border: 2px black dashed;
+    border-radius: 2px;
+    width: 300px;
+    margin-left: 590px;
+    margin-top: 30px;
+}
+@media (max-width: 1208px){
+    .Navbar{
+        display: block;
+        width: 1200px;
+        height: 90px;
+    }
+    #About{
+        width: 1200px;
+        height: 450px;
+    }
+    .mine{
+        margin-left: 600px;
+    }
+    .Text{
+        margin-right: 780px;
+        margin-bottom: 8px;
+    }
+    #Skills{
+        width: 1200px;
+        height: 400px;
+    }
+    .the-text{
+        margin-left: 300px;
+        margin-top: -20px;
+
+    }
+    #Projects{
+        width: 1200px;
+        height: 450px;
+    }
+    #Resume{
+        width: 1200px;
+        height: 500px;
+    }
+    #Contact{
+        width: 400px;
+        height: 200px;
+    }
+    #Footer{
+        position: fixed;
+        margin-top: 390px;
+        text-align: center;
+        margin-left: 450px;
+    }
+
+}
+    
