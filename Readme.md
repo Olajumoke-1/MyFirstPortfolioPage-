@@ -40,7 +40,7 @@
  interactive with javascript.
 # Author
 - Github (https://github.com/Olajumoke-1)
-- LinkendIn (www.linkendin.com/in/solihat-olajumoke31)
+- LinkendIn (www.linkedin.com/in/solihat-olajumoke31)
 
 
  
